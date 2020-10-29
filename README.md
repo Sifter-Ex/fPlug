@@ -1,12 +1,12 @@
-<img align="left" src="https://img.shields.io/badge/Author-s1l3nt78-blueviolet"><a href="https://www.codefactor.io/repository/github/s1l3nt78/sifter"><img align="right" src="https://www.codefactor.io/repository/github/s1l3nt78/sifter/badge" alt="CodeFactor" /></a><br/>
+<img align="left" src="https://img.shields.io/badge/Author-s1l3nt78-blueviolet"><a href="https://www.codefactor.io/repository/github/s1l3nt78/sifter"><img align="right" src="https://www.codefactor.io/repository/github/Sifter-Ex/fPlug/badge" alt="CodeFactor" /></a><br/>
 <p align="center"><img align="center" src="https://img.shields.io/badge/-The_Dead_Bunny_Collective-green"></p>
 <br />
 <p align="center">
 	<img align="center" src="https://raw.githubusercontent.com/s1l3nt78/sifter/master/docs/sifter.png">
 <br>
-  	<img align="center" src="https://img.shields.io/github/issues/Sifter-Ex/f">
-  	<img align="center" src="https://img.shields.io/github/forks/Sifter-Ex/f">
-  	<img align="center" src="https://img.shields.io/github/stars/Sifter-Ex/f">		  
+  	<img align="center" src="https://img.shields.io/github/issues/Sifter-Ex/fPlug">
+  	<img align="center" src="https://img.shields.io/github/forks/Sifter-Ex/fPlug">
+  	<img align="center" src="https://img.shields.io/github/stars/Sifter-Ex/fPlug">		  
 <br>
 	<img align="center" src="https://img.shields.io/badge/@Codename:-f-red">
 	<img align="center" src="https://img.shields.io/badge/Version-Alpha-green">
