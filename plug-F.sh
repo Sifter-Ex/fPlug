@@ -118,37 +118,31 @@ echo "		█  █  █  █ █ █  █ █  █  █▄   ▄▀ █  █  █ 
 echo "		███▀     █ █  █ █ ███▀  ▀███▀     █    █  █▄ ▄█                  " 
 echo "		        █  █   ██                ▀      ▀  ▀▀▀                   " 
 echo "		       ▀                                                         " 
-    echo -e "${ORNG}"
-    PS3='Which tool would you like to deploy?'
-        options=("FuzzBunch" "DanderSpritz" "Both" "Back" "Quit")
-        select opt in "${options[@]}"
-        do
-                case $opt in
-                    "FuzzBunch")
-                        fbc
-                        ;;
-
-                    "DanderSpritz")
-                        dander
-                        ;;
-
-                    "Both")
-                        fbc 
-                        dander
-                        ;;
-
-                    "Back")
-                        cd /opt/sifter
-                        ./sifter -e
-                        ;;
-
-                    "Quit")
-                        exit 2
-                        ;;
-
-                esac
-        done
-    echo -e "${NC}"
+    ASTAT=$(cat /home/$USER/.config/.anon_status)
+	echo -e "${EXC} ${BIGreen}Anonymous: ${BIYellow}${ASTAT}${NC}"
+	echo -e " ${W}==================================================\n ${ORNG}Which tool would you like to use?\n ${W}==================================================${NC}"
+	echo -e "\n ${ORNG}1.${W} FuzzBunch          ${ORNG}3.${W} Both ${NC}"
+	echo -e " ${ORNG}2.${W} DanderSpritz		  ${ORNG}4.${W} Quit ${NC}"
+    	echo -e " ${W}"
+    	echo -n " =============================#?: "
+	read FDF
+	if [[ ${FDF} == "1" ]]; then
+		fbc &
+	elif [[ ${FDF} == "2" ]]; then
+		dander &
+	elif [[ ${FDF} == "3" ]]; then
+		fbc &
+		dander &
+	elif [[ ${FDF} == "4" ]]; then
+		exit 1
+	elif [[ ${CMM} == "info" ]]; then
+        	xterm -e bash /opt/sifter/info/info.sh &
+		fuzzyspritz
+	else
+		echo -e "${ORNG}[${RED}!${ORNG}] ${YLW}Invalid option selected, please choose\nthe corresponding module number${NC}"
+        	echo -e "[${LP}*${NC}] ${RED}Hint: ${ORNG}Type info into any menu to open the Info Screen${NC}"
+		fuzzyspritz
+	fi
 }
 # Runtime
 install
