@@ -9,17 +9,46 @@ YLW='\033[1;33m'
 LBBLUE='\e[104m'
 RED='\033[0;31m'
 LOLpause(){
-	D='1'
-	sudo touch .numbers
-	sudo chown $USER:$USER .numbers
-	for i in `seq -s \  5`;
-	do
-		echo ${D}... > .numbers
-		lolcat .numbers
-		sleep 1
-		D=$(( $D + 1 ))
-	done
-	rm .numbers
+	echo "I        D" > 1
+	echo "n        a" > 2
+	echo "s        n" > 3
+	echo "t        d" > 4
+	echo "a        e" > 5
+	echo "l        r" > 6
+	echo "l        F" > 7
+	echo "i        u" > 8
+	echo "n        z" > 9
+	echo "g        z" > 10
+
+	lolcat 1
+	rm 1
+	sleep 1
+	lolcat 2
+	rm 2
+	sleep 1
+	lolcat 3
+	rm 3
+	sleep 1
+	lolcat 4
+	rm 4
+	sleep 1
+	lolcat 5
+	rm 5
+	sleep 1
+	lolcat 6
+	rm 6
+	sleep 1
+	lolcat 7
+	rm 7
+	sleep 1
+	lolcat 8
+	rm 8
+	sleep 1
+	lolcat 9
+	rm 9
+	sleep 1
+	lolcat 10
+	rm 10
 }
 # FuzzyDander Install
 install(){
@@ -30,9 +59,6 @@ install(){
 	fi
 	FC=$(pwd)
 	cp plug-F.sh /opt/sifter/modules/exmods/fuzzyd.sh	
-      	echo -e "${LP}"
-      	figlet -f mini "    Installing DanderFuzz...."
-      	echo -e "${NC}"
       	LOLpause
 	echo -e "${RED}[${LP}!${RED}]${W}::${ORNG}Pulling required files for the Framework ..${NC}"
 	git clone https://github.com/Sifter-Ex/fPlug
