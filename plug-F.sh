@@ -60,9 +60,7 @@ install(){
 	FC=$(pwd)
 	cp plug-F.sh /opt/sifter/modules/exmods/fuzzyd.sh	
       	LOLpause
-	echo -e "${RED}[${LP}!${RED}]${W}::${ORNG}Pulling required files for the Framework ..${NC}"
-	git clone https://github.com/Sifter-Ex/fPlug
-      	dpkg --add-architecture i386
+	dpkg --add-architecture i386
       	apt update
       	apt-get install xterm wine wine32 wine-development wine-binfmt winexe
       	if [[ ! -d '/root/.wine' ]]; then
