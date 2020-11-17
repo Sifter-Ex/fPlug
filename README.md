@@ -42,7 +42,7 @@
 - <a href="https://github.com/Sifter-Ex/fPlug">F</a> - Sifter's <em>f</em> extention provides the DanderFuzz Exploitational Plugin for Sifter
 <br />&emsp;&emsp;	'--> Framework created by the <a href="#">EquationGroup</a> courtesy of <a href="#">The Shadow Brokers</a><br />
   - <a href="https://github.com/Sifter-Ex/mPlug">M</a> - Sifter's <em>m</em> extention provided malware analysis tools.
-<br />- C - Sifter's c extention is just a small script allowing CobaltStrike to be added to exploitation frameworks.
+<br />-<a href="https://github.com/Sifter-Ex/cPlug">C</a> - Sifter's c extention is just a small script allowing CobaltStrike to be added to exploitation frameworks.
 <br />   (A copy of CobaltStrike will NOT be provided, You must provide your own)
 </details>
 
