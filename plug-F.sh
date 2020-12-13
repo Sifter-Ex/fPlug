@@ -29,7 +29,7 @@ install(){
    		exit 1
 	fi
 	FC=$(pwd)
-	cp plug-F.sh /opt/sifter/modules/exmods/fuzzyd.sh	
+	cp plug-F.sh /opt/sifter/modules/exmods/fuzzyd.sh
       	LOLpause
 	dpkg --add-architecture i386
       	apt update
@@ -80,13 +80,13 @@ dander(){
 # FuzzBunch & DanderSpritz
 fuzzyspritz(){
     echo -e "${RED}"
-echo "		██▄   ██      ▄   ██▄   ▄███▄   █▄▄▄▄ ▄████     ▄▄▄▄▄▄   ▄▄▄▄▄▄ "  
-echo "		█  █  █ █      █  █  █  █▀   ▀  █  ▄▀ █▀       ▀   ▄▄▀  ▀   ▄▄▀  " 
+echo "		██▄   ██      ▄   ██▄   ▄███▄   █▄▄▄▄ ▄████     ▄▄▄▄▄▄   ▄▄▄▄▄▄ "
+echo "		█  █  █ █      █  █  █  █▀   ▀  █  ▄▀ █▀       ▀   ▄▄▀  ▀   ▄▄▀  "
 echo "		█   █ █▄▄█ ██   █ █   █ ██▄▄    █▀▀▌  █▀▀ █   █ ▄▀▀   ▄▀ ▄▀▀   ▄▀ "
-echo "		█  █  █  █ █ █  █ █  █  █▄   ▄▀ █  █  █   █   █ ▀▀▀▀▀▀   ▀▀▀▀▀▀  " 
-echo "		███▀     █ █  █ █ ███▀  ▀███▀     █    █  █▄ ▄█                  " 
-echo "		        █  █   ██                ▀      ▀  ▀▀▀                   " 
-echo "		       ▀                                                         " 
+echo "		█  █  █  █ █ █  █ █  █  █▄   ▄▀ █  █  █   █   █ ▀▀▀▀▀▀   ▀▀▀▀▀▀  "
+echo "		███▀     █ █  █ █ ███▀  ▀███▀     █    █  █▄ ▄█                  "
+echo "		        █  █   ██                ▀      ▀  ▀▀▀                   "
+echo "		       ▀                                                         "
     ASTAT=$(cat /home/$USER/.config/.anon_status)
 	echo -e "${EXC} ${BIGreen}Anonymous: ${BIYellow}${ASTAT}${NC}"
 	echo -e " ${W}==================================================\n ${ORNG}Which tool would you like to use?\n ${W}==================================================${NC}"
@@ -125,4 +125,3 @@ echo " =========================================================================
 cd /opt/sifter
 
 ######################               VGhlIERlYWQgQnVubnkgQ2x1Yg==             ########################
-
